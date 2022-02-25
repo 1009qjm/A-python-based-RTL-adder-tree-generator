@@ -4,8 +4,8 @@ This is a python based script that can generate system verilog codes of pipeline
 DATA_WIDTH means the data width of input and output;
 N means the input data number of the adder tree,currently only support N to be power of two.
 ## Usage
-To use this script,just input
-**python -W your_data_width -N your_input_data_num**
+To use this script,just input  
+**python -W your_data_width -N your_input_data_num**  
 Then you can find three system verilog source files in current path.There are adder.sv,adderTree.sv and test_tb.sv.The first two are source file,and the last one is testbench.
 ## RTL View
 Take N=32,W=64 as example,the RTL View is as below:
